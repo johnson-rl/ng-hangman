@@ -36,6 +36,9 @@ _________
 |      <span ng-show="hangmanCtrl.game.triesRemaining<3">/</span> <span ng-show="hangmanCtrl.game.triesRemaining<2">\</span>
 |
 |___
+
+      {{hangmanCtrl.win+" - "+hangmanCtrl.loss}}
+    <button class="btn-xs" name="button" ng-click="hangmanCtrl.startGame()">New Game</button>
       </pre>
     </div>
   </div>
